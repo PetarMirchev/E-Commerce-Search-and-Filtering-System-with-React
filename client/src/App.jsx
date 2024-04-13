@@ -1,10 +1,15 @@
 import './App.css';
+import Navbar from './Navbar/Navbar';
+import Products from './Products/Products';
+import Recommended from './Recommended/Recommended';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+      <>
+        <Navbar/>
+        <Products/>
+        <Recommended/>
+      </>
   );
 }
 
