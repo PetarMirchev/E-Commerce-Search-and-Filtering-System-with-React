@@ -7,8 +7,8 @@ function App() {
   return (
       <>
         <Navbar/>
-        <Products/>
         <Recommended/>
+        <Products/>
       </>
   );
 }
