@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="nav-div">
       <div className="nav-container">
-        <input type="text" name="find" value="" placeholder='Enter your search...' className="search-input"/>
+        <input type="text" name="find" placeholder='Enter your search...' className="search-input"/>
       </div>
       <div className="profile-container">
         <a href="#"><FiHeart className="nav-icons"/></a>
