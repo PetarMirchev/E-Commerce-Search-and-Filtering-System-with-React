@@ -1,5 +1,6 @@
 import React from 'react'
 import "./colors.css";
+import Input from "../../components/Input";
 
 
 const Colors = () => {
@@ -38,6 +39,8 @@ const Colors = () => {
           <input type="radio" name='test3' value=''/>
           <span className='checkmark'></span>White
         </label>
+
+        <Input/>
 
         </div>
     </div>

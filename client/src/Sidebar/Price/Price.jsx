@@ -1,5 +1,6 @@
 import React from 'react'
 import "./price.css";
+import Input from "../../components/Input";
 
 const Price = () => {
   return (
@@ -32,6 +33,8 @@ const Price = () => {
           <input type="radio" name='test2' value=''/>
           <span className='checkmark'></span>Over $200
         </label>
+
+        <Input/>
 
         </div>
     </div>

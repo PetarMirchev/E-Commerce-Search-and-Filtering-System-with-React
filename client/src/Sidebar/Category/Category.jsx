@@ -1,5 +1,6 @@
 import React from 'react'
 import "./category.css";
+import Input from "../../components/Input";
 
 const Category = () => {
   return (
@@ -27,6 +28,8 @@ const Category = () => {
           <input type="radio" name='test' value=''/>
           <span className='checkmark'></span>Heals
         </label>
+
+        <Input/>
 
       </div>
       
