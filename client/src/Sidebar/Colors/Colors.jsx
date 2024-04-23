@@ -47,17 +47,17 @@ const Colors = ({handleChangeRadioBTN}) => {
           color="green"
         />
 
-        {/* fix the problem whit White dot on White background color */}
+
         <Input
           handleChangeRadioBTN={handleChangeRadioBTN}
           value="white"
           title="White"
           name="test3"
         />
-          <span
+          {/* <span
             className="checkmark"
             style={{ background: "white", border: "2px solid black" }}>
-          </span>
+          </span> */}
 
 
 

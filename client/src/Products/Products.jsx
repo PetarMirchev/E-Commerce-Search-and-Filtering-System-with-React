@@ -1,26 +1,12 @@
 import React from 'react'
 import "./products.css";
-import Card from '../components/Card';
+// import Card from '../components/Card';
 
-const Products = () => {
+const Products = ({resultOfFilter}) => {
   return (
     <>
-    <section className='card-container'>
-      
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-
-
+    <section className='card-container'> 
+        {resultOfFilter}
     </section>
     </>
   )
