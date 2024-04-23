@@ -6,8 +6,6 @@ import Colors from './Colors/Colors';
 
 const Sidebar = ({handleChangeRadioBTN}) => {
 
-    //1.22.00
-
   return (
     <>
     <div className='sidebar'>
@@ -15,9 +13,9 @@ const Sidebar = ({handleChangeRadioBTN}) => {
         <h1>My Shop</h1>
       </div>
       
-      <Category handleChange={handleChangeRadioBTN}/>
-      <Price handleChange={handleChangeRadioBTN}/>
-      <Colors handleChange={handleChangeRadioBTN}/>
+      <Category handleChangeRadioBTN={handleChangeRadioBTN}/>
+      <Price handleChangeRadioBTN={handleChangeRadioBTN}/>
+      <Colors handleChangeRadioBTN={handleChangeRadioBTN}/>
     </div>
     </>
   )

@@ -1,10 +1,10 @@
 import React from 'react'
 
-const input = () => {
+const input = ({handleChange, value, title, name, color}) => {
   return (
     <label className='sidebar-label-container'>
-      <input type="radio" name='test' value=''/>
-      <span className='checkmark'></span>Input.JSX
+      <input onChange={handleChange} type="radio" name={name} value={value}/>
+      <span className='checkmark' style={{backgroundColor: color}}></span>{title}
     </label>
   )
 }

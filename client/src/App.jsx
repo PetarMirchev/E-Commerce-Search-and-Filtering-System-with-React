@@ -30,7 +30,7 @@ function App() {
 
   //---------- Radio Filter (Black, white, red, $151 - $200 ....) --------------
 const handleChangeRadioBTN = event => {
-  selectedCategory(event.target.value);
+  setSelectedCategory(event.target.value);
 };
 
 
